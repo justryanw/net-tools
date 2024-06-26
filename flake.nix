@@ -9,6 +9,11 @@
     {
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
+	  wirelesstools
+	  owl
+	  iw
+	  nmap
+	  busybox
         ];
       };
     }
