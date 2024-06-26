@@ -21,6 +21,7 @@
 	  iw
 	  nmap
 	  busybox
+	  aircrack-ng
         ]) ++ [
 	  packages.speed
 	];
